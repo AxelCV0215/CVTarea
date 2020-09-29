@@ -1,0 +1,123 @@
+body{
+    margin: 0px;
+    height: 100%;
+}
+header{
+    background-color:#46AD5C;
+    width:100%;
+    height:50px;  
+}
+
+footer{  
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:50px;  
+    background:#6cf;
+}
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.izq_box, .cen_box, .der_box{
+    width: 31.1%;
+    height: 60%;
+    padding: 15px;
+}
+
+.izq_box, .cen_box{
+    float: left;
+}
+
+.der_box{
+    float: right;
+    clear: none;
+}
+
+
+.Datos_box{
+    display: flex;
+    justify-content: center;
+}
+
+.datos_izq{
+    text-align: right;
+    color: #46AD5C;
+    padding-right: 5px;
+}
+
+.Tratos_box{
+    padding-top: 4%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tratos_estilo{
+    color: white;
+    border: solid #46AD5C;
+    background-color:#46AD5C;
+    border-radius: 5px;
+}
+
+.imagen_izq{
+    padding-top: 6%;
+    padding-bottom: 6%;
+    display: flex;
+    justify-content: center;
+}
+
+.image_izq_estilo{
+    max-width: 100%;
+    max-height: 100%;
+    padding-left: 6;
+}
+
+.motivaciones_font{
+    width: 66%;
+    margin: 5px 0;
+}
+
+.motivaciones_font:nth-child(even){
+    border: solid #dbdbdb;
+    background-color: #dbdbdb;
+}
+
+.motivaciones_font:nth-child(odd){
+    border: solid #afafaf;
+    background-color: #afafaf ;
+}
+
+.Bio_box{
+    border: solid #dbdbdb;
+    background-color: #dbdbdb;
+}
+
+.puntos_font{
+    padding-left: 10px;
+}
+
+.puntos_font::before{
+    content: "• ";
+}
+
+.contendor_barra{
+    padding-bottom: 2%;
+}
+
+.barra{
+    width: 100%;
+    background-color: #afafaf;
+}
+
+.barra_valor{
+    display: block;
+    height: 22px;
+    background-color: #46AD5C;
+}
+
+.imagen{
+    height: 22px;
+    width: 22px;
+}
